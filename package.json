@@ -1,0 +1,8 @@
+{
+  "name": "wildcardcmp",
+  "repo": "clibs/wildcardcmp",
+  "description": "simple wildcard string comparison",
+  "keywords": ["wildcard", "string", "comparison"],
+  "license": "MIT",
+  "src": ["wildcardcmp.c", "wildcardcmp.h"]
+}
