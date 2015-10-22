@@ -1,3 +1,5 @@
 *.o
 *.gc*
 test
+coverage
+coverage.info
