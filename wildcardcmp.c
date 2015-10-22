@@ -14,10 +14,6 @@ wildcardcmp(const char *pattern, const char *string) {
   while (1) {
     if (!*string) {
       if (!*pattern) return 1;
-      if ('*' == *pattern) {
-        pattern++;
-        continue;
-      }
       if (!*s) return 0;
       string = s++;
       pattern = w;
