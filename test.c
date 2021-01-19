@@ -6,7 +6,7 @@
 int
 main(void) {
   // positive
-	assert(1 == wildcardcmp("foo*", "foo"));
+  assert(1 == wildcardcmp("foo*", "foo"));
   assert(1 == wildcardcmp("foobar", "foobar"));
   assert(1 == wildcardcmp("*", "foobar"));
   assert(1 == wildcardcmp("foo*", "foobar"));
